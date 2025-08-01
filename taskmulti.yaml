@@ -1,4 +1,4 @@
 version: v1.0.0
 steps:
 # Build target image
-  - cmd: ghcr.io/oras-project/oras:v1.2.2 help
+  - cmd: ghcr.io/oras-project/oras:v1.2.2 cp docker.io/library/hello-world:latest yukevinregistry.azurecr.io/hello-world:latest
